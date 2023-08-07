@@ -1,15 +1,15 @@
-const date = 2050
-const status = 'student'
-const count = 0
+let date = 2050
+//const status = 'student'
+//const count = 0
 
 if (date = 2050) {
 	console.log("January", 'New Year’s Day')
 	console.log("March", 'Human Rights Day')
-	date = 'April'
+	let date = 'April'
 	console.log(date, 'Family Day')
 	console.log(date, 'Freedom Day')
-	const count = count + 4
-
+	let count = count + 4
+    let status = "student"
     if (status = "student") {
 	  console.log('June', 'Youth Day')
 		let count = count + 1
@@ -17,7 +17,7 @@ if (date = 2050) {
 
 	console.log('August', 'Women’s Day')
 	console.log('September', 'Heritage Day')
-	date = 'December'
+	let date = 'December'
 	console.log(date, 'Day of Reconciliation')
 	let count = count + 3
 
